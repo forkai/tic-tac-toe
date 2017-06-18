@@ -1,0 +1,2 @@
+body{font:14px Century Gothic,Futura,sans-serif;margin:20px}ol,ul{padding-left:30px}.board-row:after{clear:both;content:"";display:table}.status{margin-bottom:10px}.square{background:#fff;border:1px solid #999;float:left;font-size:14vw;font-weight:700;line-height:20vw;margin-right:-1px;margin-top:-1px;padding:0;text-align:center;width:20vw;height:20vw}.square.winner{color:red}.square:focus{outline:none}.kbd-navigation .square:focus{background:#ddd}.game-board,.game-info{margin:.5rem 2rem}.strengthen{font-weight:700}
+/*# sourceMappingURL=main.feaacce5.css.map*/
