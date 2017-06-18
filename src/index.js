@@ -121,10 +121,11 @@ class Game extends React.Component {
 		const current = history[this.state.stepNumber];
 		const temp = calculateWinner(current.squares),
 			winner = temp['winner'],
-			wsquares = temp['wsquares'];
+			wsquares = temp['wsquares'],
+			steps = this.state.steps;
 
 		const moves = history.map((step, move) => {
-			const mlocation = getMoveLocation(move),
+			const mlocation = getMoveLocation(steps[move-1]),
 				desc = move ?
 				'Move #' + mlocation :
 				'Game start';
