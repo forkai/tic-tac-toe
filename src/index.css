@@ -21,15 +21,19 @@ ol, ul {
   background: #fff;
   border: 1px solid #999;
   float: left;
-  font-size: 24px;
+  font-size: 14vw;
   font-weight: bold;
-  line-height: 34px;
-  height: 34px;
+  line-height: 20vw;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 20vw;
+  height: 20vw;
+}
+
+.square.winner {
+  color: red;
 }
 
 .square:focus {
@@ -40,11 +44,11 @@ ol, ul {
   background: #ddd;
 }
 
-.game {
-  display: flex;
-  flex-direction: row;
+.game-board, .game-info {
+  /*width: 100%;*/
+  margin: .5rem 2rem;
 }
 
-.game-info {
-  margin-left: 20px;
+.strengthen {
+	font-weight: bold;
 }
