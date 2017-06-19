@@ -1,5 +1,7 @@
 # tic-tac-toe
 
+[![codebeat badge](https://codebeat.co/badges/1d8a7ce8-50bd-4591-8c53-981bbc6ac919)](https://codebeat.co/projects/github-com-hijiangtao-tic-tac-toe-master)
+
 ## Introduction
 
 The app is programmed under the guidance of [React Official Tutorial](https://facebook.github.io/react/tutorial/tutorial.html), and implements with following features:
